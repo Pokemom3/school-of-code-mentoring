@@ -13,6 +13,7 @@ School of Code Mentoring
 
 - [Getting Started](#getting-started)
   - [Development](#development)
+- [To-Do](#to-do)
 - [Tools](#tools)
 - [Ways of working](#ways-of-working)
   - [Ngrok](#ngrok)
@@ -27,6 +28,17 @@ School of Code Mentoring
 npm install
 npm run dev
 ```
+
+## To-Do
+
+- [x] Creating the 3 files with their 'headers'
+- [x] Linking the files
+- [ ] Creating background colour
+- [ ] Create a DOM element in index.html to act as a placeholder for our cat image
+- [ ] Create a JS file & create a function to retrive an image from the [Cat API](https://docs.thecatapi.com/)
+- [ ] Update our placeholder with image from API
+- [ ] Create a button with a Click event - when button is clicked, call our Cat function to update the cat image
+- [ ] Using Flexbox and Frog to organise the 2 images on the page
 
 ## Tools
 
