@@ -11,18 +11,40 @@ School of Code Mentoring
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Microfrontends](#microfrontends)
-- [🤩 Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Running an application locally - Development Mode](#running-an-application-locally---development-mode)
-  - [Running an application locally - Production Mode](#running-an-application-locally---production-mode)
-  - [Running the design guide locally](#running-the-design-guide-locally)
-- [Making new things](#making-new-things)
-  - [Next application](#next-application)
-  - [Create component](#create-component)
-- [Upgrading Nx workspace](#upgrading-nx-workspace)
-- [Work in progress](#work-in-progress)
-  - [Resources](#resources)
-  - [Running Affected App](#running-affected-app)
+- [Getting Started](#getting-started)
+  - [Development](#development)
+- [Tools](#tools)
+- [Ways of working](#ways-of-working)
+  - [Ngrok](#ngrok)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Getting Started
+
+### Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Tools
+
+| Tool       | Description            |
+| ---------- | ---------------------- |
+| Prettier   | Consistent code format |
+| Husky      | Git hooks              |
+| LintStaged | Only lint staged files |
+
+## Ways of working
+
+- Create a VSCode LiveShare session
+- Create & share [Ngrok](https://ngrok.com/) URL
+
+### Ngrok
+
+Ngrok allows for easy sharing of localhost on a public url to enable easy collaboration
+
+```bash
+ngrok http -host-header=localhost 8080
+```
