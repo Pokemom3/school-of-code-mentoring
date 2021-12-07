@@ -1,0 +1,25 @@
+{
+  "name": "school-of-code-mentoring",
+  "version": "1.0.0",
+  "description": "Repo for working through learning exercises with mentee",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --mount='/:/src' --entry-file='./src/index.html' --watch='./src'",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install",
+    "updateTOC": "doctoc ./README.md"
+  },
+  "keywords": [
+    "mentoring"
+  ],
+  "author": "Hugh Loughrey",
+  "license": "ISC",
+  "devDependencies": {
+    "doctoc": "2.1.0",
+    "http-server": "14.0.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.1.2",
+    "live-server": "1.2.1",
+    "prettier": "2.5.1"
+  }
+}

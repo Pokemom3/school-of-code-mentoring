@@ -1,0 +1,17 @@
+.container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gold;
+}
+p {
+  color: green;
+}
+.blue-paragraph {
+  color: blue;
+  background-color: red;
+  align-self: flex-end;
+}
+#purple-paragraph {
+  color: purple;
+}
